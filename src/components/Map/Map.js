@@ -8,11 +8,11 @@ class Map extends React.Component {
 
   render() {
     return (
-      <div style={{ height: "100vh", width: "100%" }}>
+      <div style={{ height: "100vh", width: "80%" }}>
         <GoogleMap
           apiKey={"AIzaSyD6GR_rO09Fqe6JRF3eMmtl84_uXCrKlE8"} // set if you need stats etc ...
           center={{ lat: 43.731, lng: -79.7624 }}
-          zoom={8}
+          zoom={6}
         ></GoogleMap>
       </div>
     );
