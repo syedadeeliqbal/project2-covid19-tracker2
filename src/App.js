@@ -4,7 +4,6 @@ import styles from './App.module.css';
 import { fetchData, fetchCountryMapData } from './api';
 import coronaImage from './images/image.png';
 
-
 class App extends React.Component {
   state = {
     data: {},
